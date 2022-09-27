@@ -8,7 +8,7 @@ function randnBoxMuller(rng) {
 }
 
 class Track {
-  constructor({ widthMeters = 5 / 0.3, heightMeters = 4 / 0.3, trackPoints = null, collisions = true, collisionReset = 0 } = {}) {
+  constructor({ widthMeters = 10 / 0.3, heightMeters = 10 / 0.3, trackPoints = null, collisions = true, collisionReset = 0 } = {}) {
       this.size = { width: widthMeters, height: heightMeters };
       this.cars = [];
       this.trackWidth = 2.0;
